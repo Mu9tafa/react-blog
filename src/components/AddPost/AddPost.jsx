@@ -19,7 +19,7 @@ const AddPost = (props) => {
         setIsLoading(false)
     }
 
-    const sendSubmit = async (post) => {
+    const sendSubmit = (post) => {
         return new Promise((resolve, reject) => {
             setTimeout(()=>{
                 resolve(post);
